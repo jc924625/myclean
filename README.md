@@ -14,13 +14,40 @@ The following is the list of items, which are required to be completed.
 1. Submit link to your repository
 2. Download your github repository as a zip file and submit via LearnJCU.
 
-## Team
+# MyClean Booking System
 
-It is recommended to complete this assignment in a group of 2-4 students.
-1. Student 1
-2. Student name 2
-3. Name 3
-4. Name 4
+This is a solo software project for CP3407 - Software Engineering, developed by Johns Bijoy.
+
+## 🔍 Project Overview
+
+**MyClean** is a web-based booking system tailored for individual cleaners and cleaning businesses. The platform allows:
+- Cleaners to manage availability, bookings, and view customer details.
+- Customers to search, book, and pay for cleaning services.
+
+Built using:
+- **React.js** for frontend
+- **Firebase** for backend, database, and authentication
+- **GitHub** for version control
+- **Trello** for Agile task tracking
+
+## 👤 Developer
+- Johns Bijoy  
+- Bachelor of Information Technology  
+- James Cook University  
+
+## 📌 Repo Contents
+- `user_stories/` – Detailed user stories for customers and service providers.
+- `iteration_1.md` – Planning and outcomes of the first Agile sprint.
+- `iteration_2.md` – Planning and outcomes of the second Agile sprint.
+- `README.md` – You’re here.
+
+
+## 🧪 Deployment
+- Will be deployed to Firebase Hosting — URL will be added once live.
+
+---
+
+
 
 
 # Project planning BEFORE iteration-1, (see chapters 1-3)
