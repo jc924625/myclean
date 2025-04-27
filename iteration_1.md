@@ -1,29 +1,32 @@
-# Actual iteration-1 board, (see chapters 3 and 4), add your start and end dates 
+# Iteration 1 - Setup and Initial Development
 
-Checklist: 
-1. github entry timestamps
-2. User stories are correct: see p39
+## Goals for Iteration 1:
+- Set up GitHub repository and local development environment
+- Install XAMPP and configure Apache and MySQL
+- Create initial database `myclean_db` with two tables (`users`, `bookings`)
+- Develop basic MVP website structure:
+  - Home Page (index.php)
+  - User Registration (register.php)
+  - User Login (login.php)
+- Create basic role-based dashboards (Customer, Provider, Admin)
 
-* Assumed Velocity: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+## Achievements:
+- GitHub repository created and organized with proper folders (`src/`, `user_stories/`, `design/`, etc.)
+- Database successfully created locally using phpMyAdmin
+- Registration and Login systems tested successfully
+- User role-based redirection working to different dashboards
+- First push of working MVP website files to GitHub completed successfully
 
-User stories or tasks (see chapter 4):
-1. [user story or task title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+## Challenges:
+- Faced Git errors while trying to push local project to GitHub (remote already exists, branch issues)
+- Solved by using Git commands:
+  - Removing incorrect remote
+  - Setting correct GitHub remote link
+  - Using `git pull --allow-unrelated-histories` to resolve history mismatch
 
-In progress:
-* Task-2 (developer name or initials), date started
-* ...
+## Reflection and Learning:
+- Learned practical Git and GitHub troubleshooting
+- Improved skills in setting up PHP projects and MySQL databases
+- Understood importance of committing and pushing work regularly
+- Prepared strong foundation for next iterations: Booking system and Admin control
 
-Completed:
-* Task-3 (developer name or initials), date completed
-* ...
-
-### Burn Down for iteration-1 (see chapter 4):
-Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
-* 2 weeks left, xx days
-* 1 weeks left, xx days
-* 0 weeks left, xx days
-* Actual Velocity: ?? 
