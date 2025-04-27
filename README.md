@@ -47,6 +47,32 @@ Built using:
 
 ---
 
+## System Design
+
+The "MyClean" booking management system follows a simple and scalable architecture.  
+Below is an overview of the system design, including architecture, database model, and user interface wireframes.
+
+### Architecture Diagram
+Users interact with the frontend (HTML/CSS/PHP) which communicates with the backend server (Apache/PHP) and the MySQL database.
+
+### Database Design
+The system contains three main tables:
+- **Users** (for customers, service providers, and admin)
+- **Bookings** (managing service appointments)
+- **Reviews** (customer feedback on services)
+
+### UI Wireframes
+Basic wireframes were created to illustrate key screens:
+- Home Page (Login/Register)
+- Customer Dashboard (Book Cleaner, View Bookings)
+- Provider Dashboard (Manage Requests)
+- Admin Panel (Manage Users and Bookings)
+
+### Design Files
+All design-related files and diagrams are located in the `/design/` folder.
+
+[Click here to view the System Design diagrams](./design/)
+
 
 
 
