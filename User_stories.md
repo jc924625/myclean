@@ -5,13 +5,6 @@ This document outlines the user stories for the **"MyClean"** booking management
 
 ## User Stories
 
-# User Stories for "MyClean" Booking Management System
-
-## Introduction
-This document outlines the user stories for the **"MyClean"** booking management system, a web-based platform for service providers (cleaners) and end-users (customers), along with admin management. These stories guide the functionalities and features to ensure the platform is user-centered, scalable, and easy to use.
-
-## User Stories
-
 | User Role | User Story | Reason/Benefit | Priority |
 |:---|:---|:---|:---|
 | End-User (Customer) | As a customer, I want to register and log into the website easily | So that I can access my personal dashboard and make bookings securely | High |
