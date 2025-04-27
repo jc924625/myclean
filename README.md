@@ -71,7 +71,7 @@ Basic wireframes were created to illustrate key screens:
 ### Design Files
 All design-related files and diagrams are located in the `/design/` folder.
 
-[Click here to view the System Design diagrams](./design/)
+[Click here to view the System Design diagrams](design_summary.md)
 
 
 
