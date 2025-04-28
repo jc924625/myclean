@@ -23,9 +23,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     Email: <input type="email" name="email" required><br><br>
     Password: <input type="password" name="password" required><br><br>
     Role:
-    <select name="role" required>
-        <option value="customer">Customer</option>
-        <option value="provider">Service Provider</option>
-    </select><br><br>
+<select name="role" required>
+    <option value="customer">Customer</option>
+    <option value="provider">Service Provider</option>
+    <option value="admin">Admin</option> <!-- ADD THIS LINE -->
+</select><br><br>
     <input type="submit" value="Register">
 </form>

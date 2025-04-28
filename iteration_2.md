@@ -1,29 +1,26 @@
-# Actual iteration-2 board, (see chapters 3 and 4), add your start and end dates 
+# Iteration 2 - Booking System Development
 
-Checklist: 
-1. github entry timestamps
-2. User stories are correct: see p39
+## Goals for Iteration 2:
+- Implement Customer functionality to book a cleaner
+- Develop Service Provider dashboard to view and manage bookings (accept or reject)
+- Build Admin dashboard to view all users and all bookings
+- Connect all system parts into a smooth workflow
 
-* Assumed Velocity FROM iteration-1: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+## Achievements:
+- Created a working booking system for customers to book available service providers
+- Developed provider dashboard with functionality to accept or reject incoming bookings
+- Built admin dashboard displaying all registered users and all bookings
+- Successfully tested role-based navigation and functionalities
+- Maintained clean database interaction and session control
 
-User stories or tasks (see chapter 4):
-1. [user story or task title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+## Challenges:
+- Initial issues with missing database connections (resolved by ensuring all files include `db_config.php`)
+- Small GitHub push errors due to branch conflicts (resolved using git pull and setting correct remote)
+- Adding admin registration manually (fixed by updating registration form)
 
-In progress:
-* Task-2 (developer name or initials), date started
-* ...
+## Reflection and Learning:
+- Improved understanding of relational database models for multi-role systems
+- Learned to properly handle login sessions and redirects based on user role
+- Gained practical experience in managing GitHub repositories and pushing updates
+- Set a strong foundation for future feature expansions (e.g., payments, messaging between users)
 
-Completed:
-* Task-3 (developer name or initials), date completed
-* ...
-
-### Burn Down for iteration-2 (see chapter 4):
-Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
-* 2 weeks left, xx days
-* 1 weeks left, xx days
-* 0 weeks left, xx days
-* Actual Velocity: ?? 
